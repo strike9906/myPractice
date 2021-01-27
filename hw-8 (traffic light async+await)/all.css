@@ -1,0 +1,20 @@
+body {
+	display: flex;
+}
+.wrapper {
+	margin: 30px;
+	widows: 100px;
+	border: 1px solid black;
+	padding: 10px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+.wrapper div{
+	width: 50px;
+	height: 50px;
+	margin: 10px;
+	border-radius: 50%;
+	border: 1px solid black;
+}
